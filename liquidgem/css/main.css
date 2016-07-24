@@ -1,0 +1,109 @@
+html {
+	width: 100%;
+}
+body {
+	background-image: url("../img/graybackground.jpg");
+	margin: 0;
+	padding: 0;
+}
+nav {
+	border-width: 1%;
+	padding: 10px 0px 5px; 
+	height: 80px;
+}
+nav img {
+	width: 25%;
+}
+nav ul {
+	float: right;
+}
+nav li {
+	display: inline-block;
+	padding: 15px 20px;
+}
+nav a {
+	color: #000;
+	text-decoration: none;
+}
+hr {
+	border-bottom: #ABABAB;
+	border: 5%;
+}
+.yourname {
+	text-align: center;
+}
+.yourname span {
+	color: #F59AB2;
+}
+.yourname img {
+	border-radius: 30px;
+    padding: 20px;
+    width: 94%;
+    height: 235px;
+}
+/*introduction*/
+/*div .about {
+	float: left;
+	width: 49.99999%;
+	display: inline-block;
+}
+div .about h2 {
+	float: center;
+	font-size: 21px;
+	line-height: normal;
+	margin: -10px 15px 0 0;
+	color: #F59AB2;
+}
+.mywork {
+	float: right;
+	font-size: 21px;
+	line-height: normal;
+	margin: -10px 15px 0 0;
+	color: #F59AB2;
+}*/
+
+/*cube {
+	display: inline;
+	position: absolute;
+	font-weight: 400;
+}
+.cube .box{
+
+	
+}
+.cube img {
+	display: inline-block;
+	border-radius: 50px;
+	width: 30%;
+}*/
+
+.work {
+	text-align: center;
+	font-weight: 400;
+	padding: 50px 0;
+}
+
+.work h4 {
+	color: #F59AB2;
+	font-size: 15px;
+	margin:0;
+}
+.work .box {
+	display: inline-block;
+	padding:10px;
+	text-align: center;
+	margin:2% 1% 0%;
+	font-weight:400;
+}
+
+.work img {
+	background-color: red;
+	width: 100%;
+	height: 100%;
+	border-radius: 10%;
+}
+
+
+
+
+
