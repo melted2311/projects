@@ -1,109 +1,186 @@
-html {
-	width: 100%;
-}
-body {
-	background-image: url("../img/graybackground.jpg");
-	margin: 0;
-	padding: 0;
+* {
+	background-color: #EDEDED;
+	font-family: 'Fugaz+One';
+	color:#868480;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 25px;
 }
 nav {
-	border-width: 1%;
-	padding: 10px 0px 5px; 
-	height: 80px;
+	padding-bottom: 15px;
+	padding-right: 20px;
 }
-nav img {
-	width: 25%;
+nav a img {
+	background-color: none;
+	margin-top: 0;
+	width: 33%;
 }
 nav ul {
 	float: right;
+	margin: 0 auto;
+
 }
-nav li {
-	display: inline-block;
-	padding: 15px 20px;
-}
-nav a {
-	color: #000;
+nav ul a li {
 	text-decoration: none;
+	list-style: none;
+	display: inline-block;
+	color: #8F8B88;
+	margin-left: 50px;
 }
-hr {
-	border-bottom: #ABABAB;
-	border: 5%;
+li:last-child {
+	margin-right: 0;
 }
-.yourname {
+/*introduction section*/
+.intro {
 	text-align: center;
+	margin-top: 50px;
 }
-.yourname span {
-	color: #F59AB2;
+.intro span {
+	color: #EB954C;
 }
-.yourname img {
-	border-radius: 30px;
-    padding: 20px;
-    width: 94%;
-    height: 235px;
+.intro h4 {
+	font-weight: lighter;
+	margin-bottom: 50px;
 }
-/*introduction*/
-/*div .about {
+.intro img {
+	border-radius: 20px;
+}
+
+/*about section*/
+.about {
+	margin: 50px auto;
+}
+.aboutMe {
 	float: left;
-	width: 49.99999%;
-	display: inline-block;
+	margin-left: 20px;
 }
-div .about h2 {
-	float: center;
-	font-size: 21px;
-	line-height: normal;
-	margin: -10px 15px 0 0;
-	color: #F59AB2;
+.aboutMe span {
+	margin-left: 200px;
+	font-weight: bold;
+	color: #EB954C;
 }
-.mywork {
+.myWork {
 	float: right;
-	font-size: 21px;
-	line-height: normal;
-	margin: -10px 15px 0 0;
-	color: #F59AB2;
-}*/
-
-/*cube {
-	display: inline;
-	position: absolute;
-	font-weight: 400;
+	margin-right: 20px;
 }
-.cube .box{
-
-	
+.myWork span {
+	margin-left: 200px;
+	font-weight: bold;
+	color: #EB954C;
 }
-.cube img {
+
+/*image section*/
+.topRow {
+	margin-left: 75px;
+}
+.topRow a {
 	display: inline-block;
-	border-radius: 50px;
-	width: 30%;
-}*/
-
-.work {
-	text-align: center;
-	font-weight: 400;
-	padding: 50px 0;
+	border-radius: 20px;
+	text-decoration: none;
+	margin: 25px;
+	box-shadow: 0 0 5px;
+	background-color: #fff;
+}
+.topRow a img {
+	border-radius: 20px 20px 0 0;
+	margin: 0;
+}
+/*all h4 and h5*/
+h4 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: transparent;
+}
+h5 {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-weight: normal;
+	color: #EB954C;
+	background-color: transparent;
 }
 
-.work h4 {
-	color: #F59AB2;
+/*bottom row*/
+.bottomRow {
+	margin-left: 75px;
+}
+.bottomRow a {
+	display: inline-block;
+	border-radius: 20px;
+	text-decoration: none;
+	margin: 25px;
+	box-shadow: 0 0 5px;
+	background-color: #fff;
+}
+.bottomRow a img {
+	border-radius: 20px 20px 0 0;
+	margin: 0;
+}
+
+/*thank you*/
+.thanks {
+	margin: 0 auto;
+	color: #EB954C;
+}
+/*footer*/
+footer	{
+	background-color: #2D2D2D;
+	height: 350px;
+}
+footer h3 {
+	color: #fff;
+	background-color: transparent;
+	margin-left: 20px;
+	padding-top: 30px;
+}
+form {
+	background-color: transparent;
+	margin-top: 20px;
+	float: left;
+}
+form input {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	height: 20px;
+	background-color: #fff;
+}
+textarea {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	background-color: #fff;
+}
+button {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	background-color: transparent;
+	border-style: none;
 	font-size: 15px;
-	margin:0;
+	color: #fff;
 }
-.work .box {
+i {
+	float: right;
 	display: inline-block;
-	padding:10px;
+	margin: 70px auto;
+	margin-right: 50px;
+	border-radius: 100%;
+	width: 30px;
+	height: 30px;
 	text-align: center;
-	margin:2% 1% 0%;
-	font-weight:400;
+	padding: 5px;
+	background-color: #EB954C;
+	color: #fff;
 }
-
-.work img {
-	background-color: red;
-	width: 100%;
-	height: 100%;
-	border-radius: 10%;
+.fa.fa-facebook {
+	font-size: 30px;
 }
-
-
-
-
-
+.fa.fa-twitter {
+	font-size: 30px;
+}
+.fa.fa-youtube {
+	font-size: 30px;
+}
+.fa.fa-google {
+	font-size: 30px;
+}
